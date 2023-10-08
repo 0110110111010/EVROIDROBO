@@ -15,13 +15,6 @@ after{
 }
 
 
-button{
-    padding 0;
-    border none;
-    background-color transparent;
-    cursor pointer;
-}
-
 ul{
     list-style none;
 }
@@ -41,11 +34,14 @@ body{
     font-weight 400;
     line-height normal;
     text-transform uppercase;
+}
+.container{
     max-width 1350px;
     padding 0 10px;
     margin 0 auto ;
     text-align center;
 }
+
 
 .logo{
     color #FFF;
@@ -78,8 +74,6 @@ body{
 }
 
 
-
-
 .header{
     height 100vh;
     position relative;
@@ -90,4 +84,87 @@ body{
     align-items center;
     justify-content space-between;
     padding 32px 0;
+}
+
+
+
+
+
+
+
+
+.footer{
+    justify-content center;
+    text-align center;
+    align-items center;
+    background-color #000;
+    color #fff;
+    text-align center;
+    align-items center;
+}
+
+.container__footer{
+    justify-content center;
+    text-align center;
+    max-height1000px;
+    background-color #8A35F2;
+    background-repeat no-repeat;
+    background-size cover;
+    font-family 'Orbitron', sans-serif;
+}
+
+
+.container__footer-info{
+    max-width 1350px;
+    margin-left 270px;
+    text-align center;
+    display flex;
+    justify-content center;
+}
+
+
+.zc{
+color #FFF;
+font-family 'Poppins', sans-serif;
+font-size 16px;
+font-style normal;
+font-weight 300;
+line-height normal;
+}
+
+.description_text{
+    padding 0px;
+    width 356px;
+    color #FFF;
+    font-family 'Poppins', sans-serif;
+    font-size 16px;
+    font-style normal;
+    font-weight 300;
+    line-height normal;
+    letter-spacing 0.8px;
+    text-align justify;
+}
+
+.description_text-2{
+    width 356px;
+    color #FFF;
+    font-family 'Poppins', sans-serif;
+    font-size 16px;
+    font-style normal;
+    font-weight 300;
+    line-height normal;
+    letter-spacing 0.8px;
+    text-align justify;
+}
+
+.line{
+    margin 20px;
+}
+
+.end{
+   padding 18px;
+}
+
+.padding{
+    padding 18px;
 }

@@ -8,6 +8,9 @@ html{
     background-size: cover;
 }
 
+
+
+
 *,
 *::before,
 *::after{
@@ -28,7 +31,6 @@ body{
     color: #fff;
     font-family: 'Orbitron', sans-serif;
     /*font-family: 'Poppins', sans-serif;*/
-    font-family: Orbitron;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -40,6 +42,7 @@ body{
     padding: 0 10px;
     margin: 0 auto ;
     text-align: center;
+    align-items: center;
 }
 
 
@@ -55,27 +58,12 @@ body{
 }
 
 
-/*.logo__robo{
-    display: inline-block;
-    transform: translateX(-42px);
-    color: #FFF;
-    font-family: 'Orbitron', sans-serif;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 1.6px;
-    text-transform: uppercase;
-}*/
-
-
-.home{
+.Home{
     color: #8A35F2;
 }
 
 
 .header{
-    height: 100vh;
     position: relative;
 }
 
@@ -88,39 +76,420 @@ body{
 
 
 
-
-
-
-
-
-.container__footer{
-    max-height:1000px;
-    background-color: #8A35F2;
-    padding: 0;
-    margin: 0;
-    background-repeat: no-repeat;
-    background-size: cover;
+.composition__title{
+    color: #FFF;
+    font-family:  'Orbitron', sans-serif;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 82px;
+    letter-spacing: 3.1px;
+    width: 615px;
+    text-align: left;
+    line-height: 80px;
 }
 
+.composition__inner-text{
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    width: 615px;
+    text-align: left;
+}
+
+.robothome_1{
+    position: relative;
+    left :490px;
+    top: -540px;
+}
+
+.robothome_2{
+    position: relative;
+    left :270px;
+    top: -410px;
+}
+
+.see_1{
+    position: relative;
+    left :-320px;
+    top: -500px;
+}
+
+.Name{
+    color: #FFF;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    width: 300px;
+}
+
+.composition__inner-text2{
+    position: relative;
+    left :-970px;
+    top: -910px;
+}
+
+
+.short_code{
+    color: #FFF;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    width: 300px;
+}
+
+.full_text{
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    width: 300px;
+}
+
+
+.composition__header{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.1px;
+    padding-top: 20px;
+}
+
+.text3{
+    max-width: 800px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: normal; 
+    margin-left: 300px;
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+
+.button_2{
+    color: #FFF;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    line-height: normal;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    top: -50px;
+    left: 622px;
+}
+
+
+.back{
+    margin-left: 140px;
+}
+
+.robothome_6{
+    width: 545px;
+    height: 530px;
+    position: relative;
+    top: -220px;
+    left: -592px;
+}
+
+.robothome_7{
+    width: 350px;
+    height: 350px;
+    position: relative;
+    top: -520px;
+    left: -340px;
+}
+
+.robothome_8{
+    width: 345px;
+    height: 345px;
+    position: relative;
+    top: -420px;
+    left: -192px;
+}
+
+.text_4{
+    width: 645px;
+    text-align: justify;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.8px;
+}
+
+.text_4-title{
+    width: 645px;
+    color: #FFF;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.1px;
+    text-align: left;
+}
+
+.composition__inner-text4{
+    position: relative;
+    align-items: left;
+    text-align: justify;
+    top: -1100px;
+    left: 730px;
+}
+
+.img_button_3{
+    margin-top: 30px;
+}
+
+
+.button_3{
+    color: #FFF;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    line-height: normal;
+    position: relative;
+    top:-45px;
+    left: 20px;
+}
+
+
+
+.robothome_9{
+    align-items: center;
+    padding: 0 10px;
+    margin: 0 auto ;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    left:-250px;
+}
+
+.text_5{
+    width: 1040px;
+    text-align: justify;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    text-align: center;
+    left: 190px;
+    position: relative;
+}
+
+.text_5-title{
+width: 1418px;
+color: #FFF;
+text-align: center;
+font-family: 'Orbitron', sans-serif;
+font-size: 42px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 2.6px;
+}
+
+
+.text_5-1-title{
+    color: #FFF;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 2.6px;
+    left: 50px;
+    position: relative;
+}
+
+.composition__inner-text5{
+    position: relative;
+    align-items: center;
+    text-align: center;
+    top: -470px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.8px;
+}
+
+.img_button_4{
+    margin-top: 30px;
+}
+
+
+.button_4{
+    color: #FFF;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    line-height: normal;
+    position: relative;
+    top:-45px;
+    left: 65px;
+}
+
+
+.composition__inner-text5{
+    position: relative;
+    align-items: center;
+    text-align: center;
+    top: -470px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.8px;
+}
+
+
+.text_6-title{
+width: 984px;
+color: #FFF;
+text-align: center;
+font-family: 'Orbitron', sans-serif;
+font-size: 42px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 2.6px;
+align-items: center;
+position: relative;
+left: 190px;
+}
+
+
+.text_6{
+    width: 784px;
+    text-align: justify;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    text-align: center;
+    left: 280px;
+    position: relative;
+    margin-bottom:40px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+}
+
+.container__footer{
+    justify-content: center;
+    text-align: center;
+    max-height:1000px;
+    background-color: #8A35F2;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Orbitron', sans-serif;
+}
 
 
 .container__footer-info{
     max-width: 1350px;
+    margin-left: 270px;
+    text-align: center;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-repeat: no-repeat;
-    background-size: cover;
+    justify-content: center;
 }
 
 
-.footer_ul{
-    column-count: 4;
-    padding: 50px 25px 40px;
+.zc{
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+
 }
 
-
-.btn_social{
-    
+.description_text{
+    padding: 0px;
+    width: 356px;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    text-align: justify;
 }
 
+.description_text-2{
+    width: 356px;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    text-align: justify;
+}
+
+.line{
+    margin: 20px;
+}
+
+.end{
+   padding: 18px;
+}
+
+.padding{
+    padding: 18px;
+}
